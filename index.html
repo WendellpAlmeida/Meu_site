@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="main-header">
+        <div class="logo">Meu site</div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Boas vindas -->
+        <section id="home" class="home-section">
+            <h1> Bem-vindo ao meu site! 👋</h1>
+            <p>Um lugar para compartilhar quem eu sou e o que faço</p>
+            <a href="#sobre" class="btn btn-primary">Saiba mais</a>
+        </section>
+
+        <!-- Seção sobre mim -->
+        <section id="sobre" class="about-section">
+         <h2>Sobre mim</h2>
+         <div class="about-content" >
+            <div class="profile-image">
+                <i class="fas fa-user-circle"></i>
+            </div>
+            <p>Sou um desenvolvedor, criando meus projetos com HTML e CSS.</p>
+         </div>
+        </section>
+         <!-- seção formulario -->
+         <section id="contato" class="contact-section">
+            <h2>Contato</h2>
+            <form class="contact-form">
+                <input type="text" name="Nome" placeholder="Seu Nome" required>
+                <input type="email" name="Email" placeholder="Seu email" required>
+                <textarea placeholder="Sua mensagem"></textarea>
+                <button type="submit" class="btn btn-primary"> Enviar</button>
+            </form>
+         </section>
+    </main>
+    <!-- Rodapé -->
+     <footer class="main-footer">
+         <p>© 2025 – Feito por Wendell Almeida</p>
+     </footer>
+</body>
+</html>
